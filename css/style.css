@@ -393,6 +393,18 @@ aside h2 {
 .shopping-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.shopping-header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hot-button {
+  border: 1px solid #D7D7D8;
+  padding: .6rem;
 }
 
 .shopping-main {
