@@ -423,6 +423,11 @@ aside h2 {
 
 .img-container {
   position: relative;
+  transition: opacity .3s ease-in-out;
+}
+
+.img-container:hover {
+  opacity: .6;
 }
 
 .img-container img {
